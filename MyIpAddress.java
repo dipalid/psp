@@ -11,7 +11,8 @@ public class MyIpAddress {
             InetAddress ipAddr = InetAddress.getLocalHost();
             System.out.println(ipAddr.getHostAddress());
             System.out.println(ipAddr.getHostName());
-            System.getProperty("os.name");
+              if(OS == null) { OS = System.getProperty("os.name"); }
+              return OS;
         } catch (UnknownHostException ex) {
             ex.printStackTrace();
         }
