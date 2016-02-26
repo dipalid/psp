@@ -1,3 +1,8 @@
+package com.myjava.ip;
+
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
 public class MyIpAddress {
 
     public static void main(String a[]){
