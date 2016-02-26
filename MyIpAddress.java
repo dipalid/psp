@@ -1,4 +1,4 @@
-package com.myjava.ip;
+
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
