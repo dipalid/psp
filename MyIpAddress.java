@@ -13,6 +13,8 @@ public class MyIpAddress {
             System.out.println(ipAddr.getHostName());
 	    System.out.println("This is modified code");
             System.getProperty("os.name");
+            System.out.println("This is modified code");
+
         } catch (UnknownHostException ex) {
             ex.printStackTrace();
         }
