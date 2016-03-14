@@ -10,8 +10,8 @@ public class MyIpAddress {
         try {
             InetAddress ipAddr = InetAddress.getLocalHost();
             System.out.println(ipAddr.getHostAddress());
-            System.out.println(ipAddr.getHostName());
-	    System.out.println("This is modified code");
+            #System.out.println(ipAddr.getHostName());
+	    #System.out.println("This is modified code");
             System.getProperty("os.name");
         } catch (UnknownHostException ex) {
             ex.printStackTrace();
