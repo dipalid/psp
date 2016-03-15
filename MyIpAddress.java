@@ -10,7 +10,6 @@ public class MyIpAddress {
         try {
             InetAddress ipAddr = InetAddress.getLocalHost();
             System.out.println(ipAddr.getHostAddress());
-            System.out.println(ipAddr.getHostName());
             System.getProperty("os.name");
             
 
